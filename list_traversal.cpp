@@ -15,11 +15,11 @@ using Clock = chrono::steady_clock;
 using Int = uint64_t;
 
 struct Node {
-	Int payload; // ignored; just for plausability.
+	Int payload[186]; // ignored; just for plausability.
 	Node* next = nullptr;
 };
 
-static_assert(sizeof(Node) == 16, "Not 64-bit? That's OK too.");
+static_assert(sizeof(Node) == 1496, "Not 64-bit? That's OK too.");
 
 
 // Returns nanoseconds per element.
