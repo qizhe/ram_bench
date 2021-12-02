@@ -7,7 +7,7 @@ Usage
 -----
 
 * **Clone it** - git clone github.com/emilk/ram_bench
-* **Compile it** - clang++ -std=c++11 -stdlib=libc++ -O3 list_traversal.cpp -o list_traversal
+* **Compile it** - g++ -std=c++11 -O3 list_traversal.cpp -o list_traversal
 * **Run it** - ./list_traversal
 * **Generate plots** - gnuplot plot.plg
 * Look at them pretty images!
